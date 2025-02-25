@@ -22,6 +22,12 @@ h3 {
   font-size: 25px;
 }
 
+h4 {
+  font-size: 19px;
+  font-weight: 500;
+  color:#FAFAF5; 
+}
+
 .logo {
   max-width: 300px;
   min-width: 200px;
@@ -262,16 +268,16 @@ h3 {
 .footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 2em;
   background: #222;
   color: white;
   padding: 40px;
   text-align: left;
-  align-items: center;
+  align-items: start;
 }
 
 .footer-logo img {
-  width: 120px; /* Adjust as needed */
+  width: 200px;
 }
 
 .footer-links ul {
@@ -281,7 +287,7 @@ h3 {
 }
 
 .footer-links ul li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .footer-links ul li a {
@@ -294,7 +300,7 @@ h3 {
 }
 
 .footer-address p {
-  margin: 5px 0;
+  margin: 3px 0;
 }
 
 .footer-social a {
