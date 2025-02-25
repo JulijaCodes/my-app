@@ -60,33 +60,44 @@ const Main = () => {
         <div className="testimonial-grid">
           <div className="testimonial">
             <img src="/sarah.png" alt="sarah-guest"/>
+            <p>🍋 🍋 🍋 🍋 🍋</p>
             <p>"Absolutely delicious! The freshest ingredients and bold flavors make every bite amazing!"</p>
-            <p>- Sarah</p>
+            <p className="guest-name">- Sarah</p>
           </div>
           <div className="testimonial">
             <img src="/ahmed.png" alt="ahmed-guest"/>
+            <p>🍋 🍋 🍋 🍋 🍋</p>
             <p>"Incredible atmosphere and friendly staff! The lemon pastries are a must-try."</p>
-            <p>- Ahmed</p>
+            <p className="guest-name">- Ahmed</p>
           </div>
           <div className="testimonial">
             <img src="/emma.png" alt="emma-guest"/>
+            <p>🍋 🍋 🍋 🍋 🍋</p>
             <p>"Best Mediterranean food in town! Everything tastes homemade and full of love.s"</p>
-            <p>- Emma</p>
+            <p className="guest-name">- Emma</p>
           </div>
           <div className="testimonial">
             <img src="/ben.png" alt="ben-guest"/>
+            <p>🍋 🍋 🍋 🍋 🍋</p>
             <p>"Fast service, great portions, and the grilled bread with tomato & basil is perfection!"</p>
-            <p>- Ben</p>
+            <p className="guest-name">- Ben</p>
           </div>
         </div>
       </section>
 
-      {/* About Section */}
       <section className="about">
-        <h2>About Us</h2>
-        <p>Meet Adrian and Mario, our expert chefs bringing authentic flavors to your table.</p>
-        <img src="/chefs.jpg" alt="Adrian and Mario" />
-      </section>
+  <div className="about-text">
+    <h2>About Little Lemon</h2>
+    <p>
+      At Little Lemon, we bring the heart of the Mediterranean straight to your plate. Founded by expert chefs Adrian and Mario, our restaurant is built on a passion for fresh, authentic flavors and warm hospitality. With years of experience in crafting traditional recipes with a modern twist, Adrian and Mario carefully select the finest ingredients to create dishes that transport you to sun-soaked coastal villages with every bite.<br /><br />From our vibrant Greek salads to our tangy lemon-infused desserts, every meal is a celebration of taste and tradition. Whether you're here for a quick bite or a leisurely dining experience, we welcome you to savor the flavors, enjoy the atmosphere, and become part of the Little Lemon family. 🍋✨
+    </p>
+  </div>
+  <div className="about-images">
+    <img src="/restaurant.jpg" alt="Restaurant" />
+    <img src="/mario-adrian-1.jpg" alt="Adrian and Mario" />
+    <img src="/mario-adrian-2.jpg" alt="Adrian and Mario" />
+  </div>
+</section>
     </main>
   );
 };
