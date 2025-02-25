@@ -1,26 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Markazi+Text:wght@500&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Karla", sans-serif;
+  line-height: 1.7em;
   margin: 0;
   padding: 0;
-  background-color: #f8f8f8;
+  background-color: #FAFAF5;
+  color: #333;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #333;
-  padding: 15px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Markazi Text", serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 .logo {
-  max-width: 120px;
+  max-width: 300px;
+  min-width: 200px;
 }
 
 .nav {
-  background: #444;
-  padding: 10px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edefee;
+  padding: 30px 100px 30px 100px;
 }
 
 .nav ul {
@@ -28,80 +40,182 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
 }
 
 .nav ul li {
-  margin: 0 15px;
+  margin: 0 14px;
 }
 
 .nav ul li a {
-  color: white;
+  color: #495E57;
   text-decoration: none;
   font-size: 18px;
+  font-weight: normal;
+}
+
+.nav ul li a:hover {
+  color: #F4CE14;
 }
 
 .main {
-  padding: 20px;
-  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .hero {
-  background: #ffeeba;
-  padding: 40px;
-  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  column-gap: 2em;
+  background:#edefee;
+  padding: 55px;
+  border-radius: 16px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+.hero-image {
+  width: 100%;
+  min-width: 350px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+.subheading {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+}
+
+.hero p {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 40ch;
 }
 
 .hero button {
-  background: #ff9800;
+  background: #495E57;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: bold;
   border: none;
+  border-radius: 16px;
   cursor: pointer;
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
+.hero button:hover {
+  background: #F4CE14;
+  color: #333;
 }
 
 .specials {
-  margin-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .specials-grid {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 2em;
 }
 
 .special-item {
-  background: white;
-  padding: 10px;
-  border-radius: 8px;
+  background: whitesmoke;
+  padding: 0px;
+  border-radius: 16px;
+  width: 500px;
 }
 
 .special-item img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.special-text {
+  padding:20px;
+}
+
+.special-name-price {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.price {
+  color: red;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.specials button {
+  background: #495E57;
+  color: whitesmoke;
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
+.specials button:hover {
+  background: #F4CE14;
+  color: #333;
+}
+
+.heading-button {
+  display: flex;
+  justify-content: space-between;
 }
 
 .testimonials {
-  margin-top: 40px;
-  background: #e3f2fd;
-  padding: 20px;
-  border-radius: 10px;
+  background: #495E57;
+  border-radius: 16px;
+  padding: 55px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.testimonials h2{
+  color: whitesmoke;
+  text-align: center;
 }
 
 .testimonial-grid {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 2em;
 }
 
-.about {
-  margin-top: 40px;
-}
-
-.about img {
+.testimonial {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 16px;
   width: 200px;
-  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 100%;
 }
 
 .footer {
