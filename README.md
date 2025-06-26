@@ -1,1 +1,3 @@
-⚠️ This project was built as a prototype/demo and is no longer maintained. Some dependencies may be outdated or have known vulnerabilities (mostly in dev dependencies).
+⚠️ 
+Note: I developed this project as part of the Meta Front-End Developer Professional Certificate course.
+It is no longer actively maintained, and some dependencies may be outdated or have known vulnerabilities (primarily in development tools, not production code).
